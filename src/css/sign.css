@@ -142,7 +142,8 @@ input:focus {
     cursor: pointer;
 }
 
-input[type="text"] + .eye_button {
+input[type="text"] + .eye_button,
+input[type="text"] + .confirm_eye_button {
     background-image: url("../images/eye-on.svg");
 }
 
